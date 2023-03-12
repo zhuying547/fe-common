@@ -1,0 +1,15 @@
+.main {
+  position: relative;
+  width: 1140px;
+  margin: 0 auto;
+}
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+.elip {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
